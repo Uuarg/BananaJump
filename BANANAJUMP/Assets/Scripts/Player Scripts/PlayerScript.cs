@@ -17,13 +17,73 @@ public class PlayerScript : MonoBehaviour {
 
     private bool player_Died;
 
+    Gyroscope gyro;
+
     void Awake() {
         myBody = GetComponent<Rigidbody2D>();
     }
 
+    private void Start()
+    {
+        if(SystemInfo.supportsGyroscope)
+        {
+            gyro.enabled = true;
+        }else
+            return;
+
+       
+    }
+
     // Update is called once per frame
-    void FixedUpdate() {
-        Move();
+    void Update()
+    {
+        // Check for touch input
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            // Determine if the touch is on the left or right side of the screen
+            if (touch.position.x < Screen.width / 2)
+            {
+                MoveLeft();
+            }
+            else
+            {
+                MoveRight();
+            }
+        }
+
+        ScreenSwap();
+    }
+    void MoveLeft()
+    {
+        transform.Translate(move_Speed * Time.deltaTime * Vector3.left);
+    }
+
+    void MoveRight()
+    {
+        transform.Translate(move_Speed * Time.deltaTime * Vector3.right);
+    }
+
+    void ScreenSwap()
+    {
+        Vector3 position = transform.position;
+
+
+        float screenLeft = Camera.main.ScreenToWorldPoint(Vector3.zero).x;
+        float screenRight = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x;
+
+
+        if (position.x > screenRight)
+        {
+            position.x = screenLeft;
+        }
+        else if (position.x < screenLeft)
+        {
+            position.x = screenRight;
+        }
+
+        transform.position = position;
     }
 
     void Move() {
@@ -31,7 +91,9 @@ public class PlayerScript : MonoBehaviour {
         if (player_Died)
             return;
 
-        if(Input.GetAxisRaw("Horizontal") > 0) {
+        transform.rotation = gyro.attitude;
+
+       /* if(Input.GetAxisRaw("Horizontal") > 0) {
 
             myBody.velocity = new Vector2(move_Speed, myBody.velocity.y);
 
@@ -39,7 +101,7 @@ public class PlayerScript : MonoBehaviour {
 
             myBody.velocity = new Vector2(-move_Speed, myBody.velocity.y);
 
-        }
+        }*/
 
     } // player movement
 

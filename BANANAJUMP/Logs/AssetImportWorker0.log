@@ -1,0 +1,913 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.9f1 (1490908003ac) revision 1347728'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/oguzh/OneDrive/Masaüstü/BananaJump/BANANAJUMP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53690
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/oguzh/OneDrive/Masaüstü/BananaJump/BANANAJUMP
+C:/Users/oguzh/OneDrive/Masaüstü/BananaJump/BANANAJUMP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12284]  Target information:
+
+Player connection [12284]  * "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2740003252 [EditorId] 2740003252 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12284]  * "[IP] 169.254.59.32 [Port] 0 [Flags] 2 [Guid] 2740003252 [EditorId] 2740003252 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12284]  * "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2740003252 [EditorId] 2740003252 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12284] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+Refreshing native plugins compatible for Editor in 13.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.9f1 (1490908003ac)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oguzh/OneDrive/Masaüstü/BananaJump/BANANAJUMP/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006045 seconds.
+- Loaded All Assemblies, in  0.833 seconds
+Native extension for Android target not found
+Unauthorized device detected, Id: RFCT70BGJYB, please add debug authorization and reconnect.
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe12366b35 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000001fe0ad9a7ed (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000001fe0ad9a6b3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000001fe0ad98a3b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000001fe0ad98901 (Mono JIT Code) UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+0x000001fe0ad98633 (Mono JIT Code) UnityEngine.Debug:LogFormat (string,object[])
+0x000001fe0ab51c03 (Mono JIT Code) UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+0x000001fe0ab5011c (Mono JIT Code) UnityEditor.Android.TargetScanWorker:ScanSync ()
+0x000001fe0ab39043 (Mono JIT Code) UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+0x000001fe0aa7f923 (Mono JIT Code) UnityEditor.Android.TargetExtension:OnLoad ()
+0x000001fe094d2e6d (Mono JIT Code) UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+0x000001fe084a0085 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffdff98694e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ffdff8c8444 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ffdff8c8530 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ffe131cab94 (Unity) scripting_method_invoke
+0x00007ffe131a2d53 (Unity) ScriptingInvocation::Invoke
+0x00007ffe1319ded5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ffe1331011b (Unity) Scripting::UnityEditor::Modules::ModuleManagerProxy::InitializePlatformSupportModules
+0x00007ffe13199345 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ffe13190cba (Unity) MonoManager::FinalizeReload
+0x00007ffe13196d33 (Unity) MonoManager::ReloadAssembly
+0x00007ffe143bfa56 (Unity) LoadUnityMonoAssemblies
+0x00007ffe13f14fed (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+Android Extension - Scanning For ADB Devices 1367 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.234 seconds
+Domain Reload Profiling: 3064ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (258ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2235ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1551ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (338ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.230 seconds
+Refreshing native plugins compatible for Editor in 10.83 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.040 seconds
+Domain Reload Profiling: 4259ms
+	BeginReloadAssembly (820ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1191ms)
+		LoadAssemblies (903ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (556ms)
+			TypeCache.Refresh (373ms)
+				TypeCache.ScanAssembly (341ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2041ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1571ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (92ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (860ms)
+			ProcessInitializeOnLoadMethodAttributes (400ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 11.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4998 unused Assets / (1.1 MB). Loaded Objects now: 5565.
+Memory consumption went from 121.7 MB to 120.6 MB.
+Total: 11.852700 ms (FindLiveObjects: 0.830000 ms CreateObjectMapping: 0.322600 ms MarkObjects: 8.491500 ms  DeleteObjects: 2.206900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 5565.
+Memory consumption went from 112.6 MB to 112.6 MB.
+Total: 8.552900 ms (FindLiveObjects: 0.398800 ms CreateObjectMapping: 0.161500 ms MarkObjects: 7.975700 ms  DeleteObjects: 0.015100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 5565.
+Memory consumption went from 112.6 MB to 112.6 MB.
+Total: 10.379800 ms (FindLiveObjects: 0.530400 ms CreateObjectMapping: 0.259500 ms MarkObjects: 9.574300 ms  DeleteObjects: 0.014100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Import Request.
+  Time since last request: 6071.729449 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(abfc50568cd094ab2a57f0b3510d3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(abfc50568cd094ab2a57f0b3510d3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 6 workers.
+ -> (artifact id: 'cdd0af3691d527a98ae234a5c882f835') in 0.0667262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.503 seconds
+Refreshing native plugins compatible for Editor in 83.00 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.177 seconds
+Domain Reload Profiling: 4678ms
+	BeginReloadAssembly (573ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (175ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1758ms)
+		LoadAssemblies (760ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1270ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (218ms)
+			BuildScriptInfoCaches (978ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2178ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (820ms)
+			ProcessInitializeOnLoadMethodAttributes (548ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 12.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4996 unused Assets / (1.0 MB). Loaded Objects now: 5571.
+Memory consumption went from 118.3 MB to 117.4 MB.
+Total: 19.848600 ms (FindLiveObjects: 0.826000 ms CreateObjectMapping: 0.385700 ms MarkObjects: 15.804500 ms  DeleteObjects: 2.830600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.412 seconds
+Refreshing native plugins compatible for Editor in 13.29 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.674 seconds
+Domain Reload Profiling: 6083ms
+	BeginReloadAssembly (583ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (164ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (3607ms)
+		LoadAssemblies (3699ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (305ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1232ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (608ms)
+			ProcessInitializeOnLoadMethodAttributes (400ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 8.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4996 unused Assets / (0.7 MB). Loaded Objects now: 5573.
+Memory consumption went from 118.3 MB to 117.6 MB.
+Total: 17.739000 ms (FindLiveObjects: 0.990800 ms CreateObjectMapping: 6.213700 ms MarkObjects: 8.976100 ms  DeleteObjects: 1.556100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.112 seconds
+Refreshing native plugins compatible for Editor in 12.78 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.531 seconds
+Domain Reload Profiling: 2643ms
+	BeginReloadAssembly (323ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (583ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1044ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (361ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4996 unused Assets / (1.2 MB). Loaded Objects now: 5575.
+Memory consumption went from 118.4 MB to 117.2 MB.
+Total: 10.132700 ms (FindLiveObjects: 1.075100 ms CreateObjectMapping: 0.511900 ms MarkObjects: 6.948600 ms  DeleteObjects: 1.595400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.143 seconds
+Refreshing native plugins compatible for Editor in 8.55 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.579 seconds
+Domain Reload Profiling: 2716ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (735ms)
+		LoadAssemblies (594ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (259ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (609ms)
+			ProcessInitializeOnLoadMethodAttributes (393ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 10.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4996 unused Assets / (1.3 MB). Loaded Objects now: 5577.
+Memory consumption went from 118.4 MB to 117.1 MB.
+Total: 15.641900 ms (FindLiveObjects: 1.776700 ms CreateObjectMapping: 3.359500 ms MarkObjects: 8.140400 ms  DeleteObjects: 2.363300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.311 seconds
+Refreshing native plugins compatible for Editor in 19.49 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.547 seconds
+Domain Reload Profiling: 2850ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (743ms)
+		LoadAssemblies (655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (289ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (578ms)
+			ProcessInitializeOnLoadMethodAttributes (394ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4996 unused Assets / (1.1 MB). Loaded Objects now: 5579.
+Memory consumption went from 118.4 MB to 117.3 MB.
+Total: 13.322400 ms (FindLiveObjects: 0.863700 ms CreateObjectMapping: 0.669500 ms MarkObjects: 10.487500 ms  DeleteObjects: 1.300200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715f06 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
+  graphicsApiMask: 2099200 -> 4
+0x00007ffe132a5e6d (Unity) StackWalker::ShowCallstack
+0x00007ffe132b5dc9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffe1451823e (Unity) Stacktrace::GetStacktrace
+0x00007ffe14abf7ff (Unity) DebugStringToFile
+0x00007ffe14715fe2 (Unity) VerifyAssetImportParametersConsistency
+0x00007ffe146e6215 (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ffe147c9c0e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ffe147b749a (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ffe147b8804 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ffe147c822c (Unity) IOService::Run
+0x00007ffe14710216 (Unity) RunAssetImportWorkerClientV2
+0x00007ffe147102db (Unity) RunAssetImporterV2
+0x00007ffe13f1500a (Unity) Application::InitializeProject
+0x00007ffe14522615 (Unity) UnityMain
+0x00007ff603072fba (Unity) __scrt_common_main_seh
+0x00007ffec5d8257d (KERNEL32) BaseThreadInitThunk
+0x00007ffec786af28 (ntdll) RtlUserThreadStart
+
